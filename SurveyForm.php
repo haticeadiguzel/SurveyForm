@@ -12,7 +12,6 @@
 
         jQuery(document).ready(function ($) {
 
-
             $(".show1").click(function (e) {
                 e.preventDefault();
                 $(".row").not(".row1").slideUp();
