@@ -32,6 +32,20 @@ if(!empty($question3B)){
     $question3B = [];
 }
 
+$n = 0;
+if(!empty($question5)){
+    foreach ($question5 as $i) {
+
+        if ($question5[$n] == 'D') {
+            unset($question5[$n]);
+        }
+        $n = $n + 1;
+
+    }
+}else{
+    $question5 = [];
+}
+
 if ($question9 != null) {
     $question9 = implode(',', $question9);
 }
@@ -55,8 +69,16 @@ if (!empty($text1)) {
     }
 }
 
-if (!empty($text2))
-    $question5 = $text2;
+if (!empty($text2)) {
+    array_push($question5, $text2);
+    $question5 = implode(',', $question5);
+} else {
+    if ($question5 == null) {
+        $question5 = Null;
+    } else {
+        $question5 = implode(',', $question5);
+    }
+}
 
 $host = "localhost";
 $dbname = "survey_db";

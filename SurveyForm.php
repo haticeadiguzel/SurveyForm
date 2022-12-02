@@ -263,20 +263,21 @@
                 <br>
                 <div>
                     <label for="">5) Mikrodalga fırını daha çok hangi amaçla kullanıyorsunuz?</label>
+                    <label for="" class="text-secondary">(Birden çok seçenek kullanılabilir.)</label>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="question5" id="question5_1" value="A" />
+                        <input class="form-check-input" type="checkbox" name="question5[]" id="question5_1" value="A" />
                         <label class="form-check-label" for="question5_1">Pişirme işlemi.</label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="question5" id="question5_2" value="B" />
+                        <input class="form-check-input" type="checkbox" name="question5[]" id="question5_2" value="B" />
                         <label class="form-check-label" for="question5_2">Isıtma işlemi.</label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="question5" id="question5_3" value="C" />
+                        <input class="form-check-input" type="checkbox" name="question5[]" id="question5_3" value="C" />
                         <label class="form-check-label" for="question5_3">Çözdürme işlemi.</label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="question5" id="question5_4" value="D" />
+                        <input class="form-check-input" type="checkbox" name="question5[]" id="question5_4" value="D" />
                         <label class="form-check-label" for="question5_4">Diğer</label>
                         <input type="text" name="text2" class="box" placeholder=" Cevabınızı giriniz...">
                     </div>
