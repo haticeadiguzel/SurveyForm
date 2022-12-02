@@ -313,7 +313,7 @@
                 </div>
                 <br>
                 <div>
-                    <label for="">8) Mikrodalga fırın kullanımının önümüzdeki yıllarda hangi ynde ilerleyeceğini
+                    <label for="">8) Mikrodalga fırın kullanımının önümüzdeki yıllarda hangi yönde ilerleyeceğini
                         düşünüyorsunuz?</label>
                     <div class="form-check">
                         <input class="form-check-input" type="radio" name="question8" id="question8_1" value="A" />
