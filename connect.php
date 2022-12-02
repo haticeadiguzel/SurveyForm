@@ -1,5 +1,5 @@
 <?php
-#ini_set('display_errors', 'Off');
+ini_set('display_errors', 'Off');
 $ageOptions = $_POST['ageOptions'];
 $genderOptions = $_POST['genderOptions'];
 $educationOptions = $_POST['educationOptions'];
