@@ -19,7 +19,7 @@ $text2 = $_POST['text2'];
 
 
 $k = 0;
-if(!empty($question3B)){
+if (!empty($question3B)) {
     foreach ($question3B as $i) {
 
         if ($question3B[$k] == 'D') {
@@ -28,12 +28,12 @@ if(!empty($question3B)){
         $k = $k + 1;
 
     }
-}else{
+} else {
     $question3B = [];
 }
 
 $n = 0;
-if(!empty($question5)){
+if (!empty($question5)) {
     foreach ($question5 as $i) {
 
         if ($question5[$n] == 'D') {
@@ -42,7 +42,7 @@ if(!empty($question5)){
         $n = $n + 1;
 
     }
-}else{
+} else {
     $question5 = [];
 }
 
